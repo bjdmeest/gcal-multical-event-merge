@@ -19,9 +19,15 @@
         "https://calendar.google.com/*",
         "storage"
   ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Toggle"
+  },
   "icons": {
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "48": "icon.png"
   },
   "options_ui": {
     "page": "options.html",
